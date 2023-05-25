@@ -1,0 +1,64 @@
+
+.btn{
+    color: aliceblue;
+    font-size: 2rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    border-color: aliceblue;
+}
+
+.btn:hover{
+   background-color:aliceblue;
+    color: black;
+    border-color: black;
+}
+.navbar{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 5.2rem;
+    background: red;
+}
+
+@media screen and (max-width: 1024px) {
+    h1{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color:aliceblue;
+        font-size: 5rem;
+        
+    }
+  }
+  
+  @media screen and (min-width: 2560px) {
+    h1{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        color:aliceblue;
+        font-size: 10rem;
+    
+    }
+    .navbar{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        height: 8.2rem;
+        background: red;
+    }
+    .btn{
+        color: aliceblue;
+        font-size: 4rem;
+        margin-left: 2.2rem;
+        margin-right: 2.2rem;
+        border-color: aliceblue;
+    }
+    
+  }
